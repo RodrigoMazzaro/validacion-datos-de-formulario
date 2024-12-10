@@ -1,0 +1,41 @@
+.form-group {
+    margin-bottom: 15px /*separacion entre grupos*/
+}
+
+
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px; /* Espaciado entre etiqueta e input */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 5px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde de color gris claro */
+    width: 100px; /*ocupa todo el ancho disponible*/
+    box-sizing: border-box;/* Incluye padding y borde en el ancho total */
+}
+
+button[type="submit"] {
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #4CAF50; /* Fondo verde */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Cambia el color al pasar el mouse */;
+}
+
+.error-message {
+    color: red; /* Texto rojo para mensajes de error */
+    font-size: 12px;/* Texto más pequeño */
+    margin-top: 5px;/* Separación con el input */
+}
